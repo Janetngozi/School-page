@@ -478,3 +478,189 @@ button {
   align-self: center;
   text-align: center;
 }
+
+@media (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .schooled h1 {
+    font-size: 40px;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbox {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .first-pictures {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .philip {
+    flex-basis: 100%;
+  }
+
+  .second-items {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .second-text {
+    flex-basis: 100%;
+  }
+
+  .third-pictures {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxes {
+    width: 90%;
+    align-items: center;
+  }
+
+  .boxes > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .star,
+  .massey,
+  .rating {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .boxes2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boxes22 {
+    text-align: center;
+  }
+
+  .boxes3 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .boxes31 {
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .boxes311 p {
+    width: 100%;
+    height: auto;
+  }
+
+  .img {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .sixth-items {
+    text-align: center;
+  }
+}
+
+
+/* ---------- Tablet (768px - 1023px) ---------- */
+@media (min-width: 768px) and (max-width: 1023px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .schooled h1 {
+    font-size: 60px;
+    line-height: 70px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .navbox {
+    gap: 20px;
+  }
+
+  .first-pictures {
+    justify-content: space-around;
+    gap: 30px;
+  }
+
+  .philip {
+    flex-basis: 40%;
+  }
+
+  .second-items {
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .second-text {
+    flex-basis: 60%;
+  }
+
+  .third-pictures {
+    justify-content: space-around;
+  }
+
+  .boxes {
+    width: 45%;
+  }
+
+  .boxes > img {
+    width: 100%;
+    height: auto;
+  }
+
+  .boxes2 {
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .boxes22 {
+    width: 45%;
+    text-align: center;
+  }
+
+  .boxes3 {
+    gap: 30px;
+  }
+
+  .boxes31 {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .boxes311 p {
+    width: 100%;
+  }
+
+  .img {
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .sixth-items {
+    text-align: center;
+  }
+}
