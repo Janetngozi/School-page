@@ -478,12 +478,16 @@ button {
   align-self: center;
   text-align: center;
 }
-
-@media (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 767px) {
   nav {
     flex-direction: column;
     align-items: flex-start;
     gap: 20px;
+  }
+
+  .schooled {
+    margin-top: 60px;
+    margin-bottom: 40px;
   }
 
   .schooled h1 {
@@ -498,13 +502,25 @@ button {
     gap: 15px;
   }
 
+  .learn {
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+  }
+
   .first-pictures {
     flex-direction: column;
     align-items: center;
+    gap: 30px;
   }
 
   .philip {
     flex-basis: 100%;
+    text-align: center;
+  }
+
+  .second {
+    padding-top: 20px;
   }
 
   .second-items {
@@ -512,15 +528,33 @@ button {
     text-align: center;
     align-items: center;
     padding: 20px;
+    gap: 20px;
   }
 
   .second-text {
     flex-basis: 100%;
   }
 
+  .second-items h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .third {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .third h1 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
   .third-pictures {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 
   .boxes {
@@ -533,20 +567,49 @@ button {
     height: auto;
   }
 
-  .star,
-  .massey,
-  .rating {
+  .smile {
+    align-items: center;
+    text-align: center;
+  }
+
+  .star, .massey, .rating {
     flex-direction: column;
     align-items: center;
     gap: 5px;
   }
 
+  .fourth-items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+
+  .fourth-items h1 {
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+  }
+
   .boxes2 {
     flex-direction: column;
     align-items: center;
+    gap: 20px;
   }
 
   .boxes22 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .fifth-items {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+  }
+
+  .fifth-items h1 {
+    font-size: 36px;
+    line-height: 46px;
     text-align: center;
   }
 
@@ -564,15 +627,22 @@ button {
   .boxes311 p {
     width: 100%;
     height: auto;
+    text-align: center;
+  }
+
+  .sixth {
+    padding-top: 40px;
+    padding-bottom: 20px;
   }
 
   .img {
     flex-direction: column;
     gap: 20px;
+    text-align: center;
   }
 
-  .sixth-items {
-    text-align: center;
+  .sixth-items h1 {
+    margin-top: 20px;
   }
 }
 
